@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ScoreBoard</string>
+    <string name="add_three_score">Add 3 Score</string>
+    <string name="add_two_score">Add 2 Score</string>
+    <string name="add_one_score">Add 1 Score</string>
+    <string name="team_a">Team A</string>
+    <string name="team_b">Team B</string>
+    <string name="reset">reset</string>
+</resources>
