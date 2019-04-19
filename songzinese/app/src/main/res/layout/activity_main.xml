@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             tools:context=".MainActivity">
+
+    <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <android.support.v7.widget.AppCompatButton
+                android:background="@color/colorNumber"
+                android:text="@string/number"
+                android:id="@+id/number_button"
+                style="@style/main_activity_item"/>
+
+        <android.support.v7.widget.AppCompatButton
+                android:background="@color/colorRelation"
+                android:text="@string/relation"
+                android:id="@+id/relation_button"
+                style="@style/main_activity_item"/>
+
+        <android.support.v7.widget.AppCompatButton
+                android:background="@color/colorFood"
+                android:text="@string/food"
+                android:id="@+id/food_button"
+                style="@style/main_activity_item"/>
+
+        <android.support.v7.widget.AppCompatButton
+                android:background="@color/colorPhrase"
+                android:text="@string/phrase"
+                android:id="@+id/phrase_button"
+                style="@style/main_activity_item"/>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.constraint.ConstraintLayout>

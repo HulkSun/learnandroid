@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">songzinese</string>
+    <string name="number">Number</string>
+    <string name="relation">Relation</string>
+    <string name="food">Food</string>
+    <string name="phrase">Phrase</string>
+    <string name="number_one_M">一</string>
+</resources>
