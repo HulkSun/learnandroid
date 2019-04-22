@@ -3,17 +3,27 @@ package com.hulk.songzinese
 class Word {
     private var wordInSongzi: String = ""
     private var wordInMandrain: String = ""
-    private var image_resource_id: Int = -1
+    private var imageResourceId: Int = -1
 
-    constructor(wordInSongzi: String, wordInMandrain: String) {
+    constructor(wordInMandrain: String, wordInSongzi: String) {
         this.wordInSongzi = wordInSongzi
         this.wordInMandrain = wordInMandrain
     }
-    constructor(wordInSongzi: String, wordInMandrain: String, image_resource_id: Int) {
+
+    constructor(wordInMandrain: String, wordInSongzi: String, imageResourceId: Int) {
         this.wordInSongzi = wordInSongzi
         this.wordInMandrain = wordInMandrain
-        this.image_resource_id = image_resource_id
+        this.imageResourceId = imageResourceId
     }
 
+    fun getWordInSongzi(): String {
+        return this.wordInSongzi
+    }
+    fun getWordInMandrain(): String {
+        return this.wordInMandrain
+    }
 
+    fun getImageResourceId(): Int{
+        return this.imageResourceId
+    }
 }

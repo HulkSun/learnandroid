@@ -4,5 +4,6 @@
     <string name="relation">Relation</string>
     <string name="food">Food</string>
     <string name="phrase">Phrase</string>
-    <string name="number_one_M">一</string>
+    <string name="number_one_mandrain">one</string>
+    <string name="number_one_songzi">一</string>
 </resources>

@@ -4,4 +4,6 @@
     <string name="relation">亲戚</string>
     <string name="food">食物</string>
     <string name="phrase">日常短语</string>
+    <string name="number_one_mandrain">一</string>
+    <string name="number_one_songzi">一</string>
 </resources>
