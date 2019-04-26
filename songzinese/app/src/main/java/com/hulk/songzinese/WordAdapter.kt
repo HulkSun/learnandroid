@@ -15,10 +15,10 @@ class WordAdapter(context: Context, resource: Int, wordList: ArrayList<Word>) :
         val view: View = convertView ?: LayoutInflater.from(context).inflate(R.layout.word_item, parent, false)
         val word = getItem(position)
         if (word != null) {
-            if (word.getImageResourceId() != -1)
-                view.findViewById<ImageView>(R.id.word_image_view).setImageResource(word.getImageResourceId())
+            if (word.hasImageResourceId())
+                view.word_image_view.setImageResource(word.getImageResourceId())
             else
-                view.findViewById<ImageView>(R.id.word_image_view).setImageResource(R.mipmap.word_default)
+                view.word_image_view.visibility = View.GONE
 
             view.songzi_text_view.text = word.getWordInSongzi()
             view.mandrain_text_view.text = word.getWordInMandrain()

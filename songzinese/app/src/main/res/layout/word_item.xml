@@ -29,4 +29,5 @@
                 android:gravity="top"
                 tools:text="@string/number_one_songzi"/>
     </android.support.v7.widget.LinearLayoutCompat>
+
 </android.support.v7.widget.LinearLayoutCompat>
