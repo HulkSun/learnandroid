@@ -18,8 +18,8 @@
         <activity android:name=".FoodActivity"
                   android:label="@string/food">
         </activity>
-        <activity android:name=".NumberActivity"
-                  android:label="@string/number">
+        <activity android:name=".AnimalActivity"
+                  android:label="@string/animal">
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>

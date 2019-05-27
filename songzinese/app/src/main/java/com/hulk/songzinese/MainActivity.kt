@@ -11,9 +11,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        number_button.setOnClickListener {
+        animal_button.setOnClickListener {
             val intent = Intent()
-            intent.setClass(this, NumberActivity::class.java)
+            intent.setClass(this, AnimalActivity::class.java)
             startActivity(intent)
         }
 

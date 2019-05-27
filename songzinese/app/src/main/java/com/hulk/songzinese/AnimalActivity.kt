@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.ListView
 
-class NumberActivity : AppCompatActivity() {
+class AnimalActivity : AppCompatActivity() {
 
     private var mediaPlayer: MediaPlayer? = null
     private var audioManger: AudioManager? = null
@@ -30,16 +30,18 @@ class NumberActivity : AppCompatActivity() {
         setContentView(R.layout.activity_word)
         audioManger = getSystemService(Context.AUDIO_SERVICE) as AudioManager?
         val wordList = ArrayList<Word>()
-        wordList.add(Word("零", "0", R.mipmap.number_zero, R.raw.number_one))
-        wordList.add(Word("一", "1", R.mipmap.number_one, R.raw.number_one))
-        wordList.add(Word("二", "2", R.mipmap.number_two, R.raw.number_one))
-        wordList.add(Word("三", "3", R.mipmap.number_three, R.raw.number_one))
-        wordList.add(Word("四", "4", R.mipmap.number_four, R.raw.number_one))
-        wordList.add(Word("五", "5", R.mipmap.number_five, R.raw.number_one))
-        wordList.add(Word("六", "6", R.mipmap.number_six, R.raw.number_one))
-        wordList.add(Word("七", "7", R.mipmap.number_seven, R.raw.number_one))
-        wordList.add(Word("八", "8", R.mipmap.number_eight, R.raw.number_one))
-        wordList.add(Word("九", "9", R.mipmap.number_nine, R.raw.number_one))
+        wordList.add(Word("鸡", "鸡"))
+        wordList.add(Word("鸭", "鸭"))
+        wordList.add(Word("鹅", "鹅"))
+        wordList.add(Word("牛", "牛"))
+        wordList.add(Word("马", "马"))
+        wordList.add(Word("猪", "猪"))
+        wordList.add(Word("狗", "狗"))
+        wordList.add(Word("猫", "猫"))
+        wordList.add(Word("狮子", "狮子"))
+        wordList.add(Word("老虎", "老虎"))
+        wordList.add(Word("猴子", "猴子"))
+
         val wordAdapter = WordAdapter(this, R.layout.word_item, wordList)
         val listView = findViewById<ListView>(R.id.word_list_view)
         listView.adapter = wordAdapter

@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">松滋话</string>
-    <string name="number">数字</string>
+    <string name="animal">动物</string>
     <string name="relation">亲戚</string>
     <string name="food">食物</string>
     <string name="phrase">日常短语</string>

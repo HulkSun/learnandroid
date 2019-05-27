@@ -12,7 +12,18 @@ class RelationActivity : AppCompatActivity() {
 
 
         val wordList = ArrayList<Word>()
-        wordList.add(Word("爸爸", "拔吧"))
+        wordList.add(Word("爸爸", "爸爸"))
+        wordList.add(Word("妈妈", "妈妈"))
+        wordList.add(Word("爷爷", "爷爷"))
+        wordList.add(Word("奶奶", "奶奶"))
+        wordList.add(Word("叔叔", "叔叔"))
+        wordList.add(Word("阿姨", "阿姨"))
+        wordList.add(Word("哥哥", "哥哥"))
+        wordList.add(Word("姐姐", "姐姐"))
+        wordList.add(Word("弟弟", "弟弟"))
+        wordList.add(Word("妹妹", "妹妹"))
+        wordList.add(Word("老公", "老公"))
+        wordList.add(Word("老婆", "老婆"))
 
         val wordAdapter = WordAdapter(this, R.layout.word_item, wordList)
         val listView = findViewById<ListView>(R.id.word_list_view)
