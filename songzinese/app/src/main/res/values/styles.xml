@@ -1,15 +1,11 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
     </style>
-    <style name="main_activity_item">
+    <style name="main_activity_item" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <item name="android:padding">32sp</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">20sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -17,9 +13,9 @@
         <item name="android:textAllCaps">false</item>
     </style>
 
-    <style name="word_item">
+    <style name="word_item" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <item name="android:padding">4sp</item>
-        <item name="android:textSize">12sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textAlignment">center</item>

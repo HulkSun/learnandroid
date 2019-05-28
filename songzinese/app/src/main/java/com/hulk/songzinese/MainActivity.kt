@@ -9,6 +9,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_main)
 
         animal_button.setOnClickListener {
@@ -33,4 +34,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
+
+
 }

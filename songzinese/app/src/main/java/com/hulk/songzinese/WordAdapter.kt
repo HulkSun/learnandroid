@@ -5,7 +5,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
-import android.widget.ImageView
 import kotlinx.android.synthetic.main.word_item.view.*
 
 class WordAdapter(context: Context, resource: Int, wordList: ArrayList<Word>) :
