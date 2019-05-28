@@ -44,7 +44,7 @@ class AnimalActivity : AppCompatActivity() {
         val wordAdapter = WordAdapter(this, R.layout.word_item, wordList)
         val listView = findViewById<ListView>(R.id.word_list_view)
         listView.adapter = wordAdapter
-
+        listView.setBackgroundColor(resources.getColor(R.color.colorAnimal))
         listView.setOnItemClickListener { _, _, position, _ ->
             releaseMediaPlayer()
             val re = audioManger?.requestAudioFocus(

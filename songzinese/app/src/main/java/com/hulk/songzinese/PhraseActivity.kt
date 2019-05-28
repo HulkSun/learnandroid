@@ -24,5 +24,7 @@ class PhraseActivity : AppCompatActivity() {
         val wordAdapter = WordAdapter(this, R.layout.word_item, wordList)
         val listView = findViewById<ListView>(R.id.word_list_view)
         listView.adapter = wordAdapter
+        listView.setBackgroundColor(resources.getColor(R.color.colorPhrase))
+
     }
 }
